@@ -1,4 +1,6 @@
 #### 瀑布流布局
+
+![image](https://github.com/Liuleiwa/LEIWaterfallLayout/blob/master/water_fall.gif)
 #### 使用
 将LEIWaterfallLayout文件拖入项目#import "LEIWaterfallLayout"
 ```

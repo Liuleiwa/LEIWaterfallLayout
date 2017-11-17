@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAD6DD71FBD78C400B7D4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6DD61FBD78C400B7D4CC /* AppDelegate.swift */; };
+		DDAD6DD91FBD78C400B7D4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6DD81FBD78C400B7D4CC /* ViewController.swift */; };
+		DDAD6DDC1FBD78C400B7D4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6DDA1FBD78C400B7D4CC /* Main.storyboard */; };
+		DDAD6DDE1FBD78C400B7D4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6DDD1FBD78C400B7D4CC /* Assets.xcassets */; };
+		DDAD6DE11FBD78C400B7D4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6DDF1FBD78C400B7D4CC /* LaunchScreen.storyboard */; };
+		DDAD6DEC1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6DEB1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.swift */; };
+		DDAD6DF71FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6DF61FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.swift */; };
+		DDAD6E061FBD78EA00B7D4CC /* LEIWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6E051FBD78EA00B7D4CC /* LEIWaterfallLayout.swift */; };
+		DDAD6E091FBD926500B7D4CC /* LEICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6E071FBD926400B7D4CC /* LEICollectionViewCell.swift */; };
+		DDAD6E0A1FBD926500B7D4CC /* LEICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E081FBD926500B7D4CC /* LEICollectionViewCell.xib */; };
+		DDAD6E111FBEB24700B7D4CC /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E0C1FBEB24600B7D4CC /* 0.jpg */; };
+		DDAD6E121FBEB24700B7D4CC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E0D1FBEB24600B7D4CC /* 1.jpg */; };
+		DDAD6E131FBEB24700B7D4CC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E0E1FBEB24600B7D4CC /* 2.jpg */; };
+		DDAD6E141FBEB24700B7D4CC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E0F1FBEB24600B7D4CC /* 3.jpg */; };
+		DDAD6E151FBEB24700B7D4CC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E101FBEB24600B7D4CC /* 4.jpg */; };
+		DDAD6E181FBEB5F300B7D4CC /* LEICollectionViewSortCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD6E161FBEB5F300B7D4CC /* LEICollectionViewSortCell.swift */; };
+		DDAD6E191FBEB5F300B7D4CC /* LEICollectionViewSortCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E171FBEB5F300B7D4CC /* LEICollectionViewSortCell.xib */; };
+		DDAD6E1B1FBEB5FB00B7D4CC /* 广告.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DDAD6E1A1FBEB5FB00B7D4CC /* 广告.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDAD6DE81FBD78C400B7D4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAD6DCB1FBD78C400B7D4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAD6DD21FBD78C400B7D4CC;
+			remoteInfo = LEIWaterfallLayoutDemo;
+		};
+		DDAD6DF31FBD78C400B7D4CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAD6DCB1FBD78C400B7D4CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAD6DD21FBD78C400B7D4CC;
+			remoteInfo = LEIWaterfallLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDAD6DD31FBD78C400B7D4CC /* LEIWaterfallLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEIWaterfallLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD6DD61FBD78C400B7D4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDAD6DD81FBD78C400B7D4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDAD6DDB1FBD78C400B7D4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDAD6DDD1FBD78C400B7D4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDAD6DE01FBD78C400B7D4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDAD6DE21FBD78C400B7D4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAD6DE71FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEIWaterfallLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD6DEB1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEIWaterfallLayoutDemoTests.swift; sourceTree = "<group>"; };
+		DDAD6DED1FBD78C400B7D4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAD6DF21FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEIWaterfallLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD6DF61FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEIWaterfallLayoutDemoUITests.swift; sourceTree = "<group>"; };
+		DDAD6DF81FBD78C400B7D4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAD6E051FBD78EA00B7D4CC /* LEIWaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEIWaterfallLayout.swift; sourceTree = "<group>"; };
+		DDAD6E071FBD926400B7D4CC /* LEICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEICollectionViewCell.swift; sourceTree = "<group>"; };
+		DDAD6E081FBD926500B7D4CC /* LEICollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LEICollectionViewCell.xib; sourceTree = "<group>"; };
+		DDAD6E0C1FBEB24600B7D4CC /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		DDAD6E0D1FBEB24600B7D4CC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DDAD6E0E1FBEB24600B7D4CC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DDAD6E0F1FBEB24600B7D4CC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DDAD6E101FBEB24600B7D4CC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DDAD6E161FBEB5F300B7D4CC /* LEICollectionViewSortCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEICollectionViewSortCell.swift; sourceTree = "<group>"; };
+		DDAD6E171FBEB5F300B7D4CC /* LEICollectionViewSortCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LEICollectionViewSortCell.xib; sourceTree = "<group>"; };
+		DDAD6E1A1FBEB5FB00B7D4CC /* 广告.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "广告.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAD6DD01FBD78C400B7D4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DE41FBD78C400B7D4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DEF1FBD78C400B7D4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAD6DCA1FBD78C400B7D4CC = {
+			isa = PBXGroup;
+			children = (
+				DDAD6E0B1FBEB24600B7D4CC /* 毛衣 */,
+				DDAD6E041FBD78D000B7D4CC /* LEIWaterfallLayout */,
+				DDAD6DD51FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */,
+				DDAD6DEA1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests */,
+				DDAD6DF51FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests */,
+				DDAD6DD41FBD78C400B7D4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAD6DD41FBD78C400B7D4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6DD31FBD78C400B7D4CC /* LEIWaterfallLayoutDemo.app */,
+				DDAD6DE71FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.xctest */,
+				DDAD6DF21FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAD6DD51FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6DD61FBD78C400B7D4CC /* AppDelegate.swift */,
+				DDAD6DD81FBD78C400B7D4CC /* ViewController.swift */,
+				DDAD6DDA1FBD78C400B7D4CC /* Main.storyboard */,
+				DDAD6DDD1FBD78C400B7D4CC /* Assets.xcassets */,
+				DDAD6DDF1FBD78C400B7D4CC /* LaunchScreen.storyboard */,
+				DDAD6DE21FBD78C400B7D4CC /* Info.plist */,
+				DDAD6E071FBD926400B7D4CC /* LEICollectionViewCell.swift */,
+				DDAD6E081FBD926500B7D4CC /* LEICollectionViewCell.xib */,
+				DDAD6E161FBEB5F300B7D4CC /* LEICollectionViewSortCell.swift */,
+				DDAD6E171FBEB5F300B7D4CC /* LEICollectionViewSortCell.xib */,
+			);
+			path = LEIWaterfallLayoutDemo;
+			sourceTree = "<group>";
+		};
+		DDAD6DEA1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6DEB1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.swift */,
+				DDAD6DED1FBD78C400B7D4CC /* Info.plist */,
+			);
+			path = LEIWaterfallLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		DDAD6DF51FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6DF61FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.swift */,
+				DDAD6DF81FBD78C400B7D4CC /* Info.plist */,
+			);
+			path = LEIWaterfallLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		DDAD6E041FBD78D000B7D4CC /* LEIWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6E051FBD78EA00B7D4CC /* LEIWaterfallLayout.swift */,
+			);
+			path = LEIWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		DDAD6E0B1FBEB24600B7D4CC /* 毛衣 */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD6E1A1FBEB5FB00B7D4CC /* 广告.jpeg */,
+				DDAD6E0C1FBEB24600B7D4CC /* 0.jpg */,
+				DDAD6E0D1FBEB24600B7D4CC /* 1.jpg */,
+				DDAD6E0E1FBEB24600B7D4CC /* 2.jpg */,
+				DDAD6E0F1FBEB24600B7D4CC /* 3.jpg */,
+				DDAD6E101FBEB24600B7D4CC /* 4.jpg */,
+			);
+			path = "毛衣";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAD6DD21FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD6DFB1FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemo" */;
+			buildPhases = (
+				DDAD6DCF1FBD78C400B7D4CC /* Sources */,
+				DDAD6DD01FBD78C400B7D4CC /* Frameworks */,
+				DDAD6DD11FBD78C400B7D4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEIWaterfallLayoutDemo;
+			productName = LEIWaterfallLayoutDemo;
+			productReference = DDAD6DD31FBD78C400B7D4CC /* LEIWaterfallLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDAD6DE61FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD6DFE1FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemoTests" */;
+			buildPhases = (
+				DDAD6DE31FBD78C400B7D4CC /* Sources */,
+				DDAD6DE41FBD78C400B7D4CC /* Frameworks */,
+				DDAD6DE51FBD78C400B7D4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAD6DE91FBD78C400B7D4CC /* PBXTargetDependency */,
+			);
+			name = LEIWaterfallLayoutDemoTests;
+			productName = LEIWaterfallLayoutDemoTests;
+			productReference = DDAD6DE71FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDAD6DF11FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD6E011FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemoUITests" */;
+			buildPhases = (
+				DDAD6DEE1FBD78C400B7D4CC /* Sources */,
+				DDAD6DEF1FBD78C400B7D4CC /* Frameworks */,
+				DDAD6DF01FBD78C400B7D4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAD6DF41FBD78C400B7D4CC /* PBXTargetDependency */,
+			);
+			name = LEIWaterfallLayoutDemoUITests;
+			productName = LEIWaterfallLayoutDemoUITests;
+			productReference = DDAD6DF21FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAD6DCB1FBD78C400B7D4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = LEI;
+				TargetAttributes = {
+					DDAD6DD21FBD78C400B7D4CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDAD6DE61FBD78C400B7D4CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDAD6DD21FBD78C400B7D4CC;
+					};
+					DDAD6DF11FBD78C400B7D4CC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDAD6DD21FBD78C400B7D4CC;
+					};
+				};
+			};
+			buildConfigurationList = DDAD6DCE1FBD78C400B7D4CC /* Build configuration list for PBXProject "LEIWaterfallLayoutDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDAD6DCA1FBD78C400B7D4CC;
+			productRefGroup = DDAD6DD41FBD78C400B7D4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAD6DD21FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */,
+				DDAD6DE61FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests */,
+				DDAD6DF11FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAD6DD11FBD78C400B7D4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD6E1B1FBEB5FB00B7D4CC /* 广告.jpeg in Resources */,
+				DDAD6DE11FBD78C400B7D4CC /* LaunchScreen.storyboard in Resources */,
+				DDAD6E111FBEB24700B7D4CC /* 0.jpg in Resources */,
+				DDAD6E131FBEB24700B7D4CC /* 2.jpg in Resources */,
+				DDAD6DDE1FBD78C400B7D4CC /* Assets.xcassets in Resources */,
+				DDAD6E121FBEB24700B7D4CC /* 1.jpg in Resources */,
+				DDAD6DDC1FBD78C400B7D4CC /* Main.storyboard in Resources */,
+				DDAD6E151FBEB24700B7D4CC /* 4.jpg in Resources */,
+				DDAD6E0A1FBD926500B7D4CC /* LEICollectionViewCell.xib in Resources */,
+				DDAD6E141FBEB24700B7D4CC /* 3.jpg in Resources */,
+				DDAD6E191FBEB5F300B7D4CC /* LEICollectionViewSortCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DE51FBD78C400B7D4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DF01FBD78C400B7D4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAD6DCF1FBD78C400B7D4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD6E181FBEB5F300B7D4CC /* LEICollectionViewSortCell.swift in Sources */,
+				DDAD6DD91FBD78C400B7D4CC /* ViewController.swift in Sources */,
+				DDAD6E061FBD78EA00B7D4CC /* LEIWaterfallLayout.swift in Sources */,
+				DDAD6DD71FBD78C400B7D4CC /* AppDelegate.swift in Sources */,
+				DDAD6E091FBD926500B7D4CC /* LEICollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DE31FBD78C400B7D4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD6DEC1FBD78C400B7D4CC /* LEIWaterfallLayoutDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD6DEE1FBD78C400B7D4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD6DF71FBD78C400B7D4CC /* LEIWaterfallLayoutDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDAD6DE91FBD78C400B7D4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAD6DD21FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */;
+			targetProxy = DDAD6DE81FBD78C400B7D4CC /* PBXContainerItemProxy */;
+		};
+		DDAD6DF41FBD78C400B7D4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAD6DD21FBD78C400B7D4CC /* LEIWaterfallLayoutDemo */;
+			targetProxy = DDAD6DF31FBD78C400B7D4CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDAD6DDA1FBD78C400B7D4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAD6DDB1FBD78C400B7D4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDAD6DDF1FBD78C400B7D4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAD6DE01FBD78C400B7D4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDAD6DF91FBD78C400B7D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDAD6DFA1FBD78C400B7D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAD6DFC1FBD78C400B7D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDAD6DFD1FBD78C400B7D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDAD6DFF1FBD78C400B7D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEIWaterfallLayoutDemo.app/LEIWaterfallLayoutDemo";
+			};
+			name = Debug;
+		};
+		DDAD6E001FBD78C400B7D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEIWaterfallLayoutDemo.app/LEIWaterfallLayoutDemo";
+			};
+			name = Release;
+		};
+		DDAD6E021FBD78C400B7D4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEIWaterfallLayoutDemo;
+			};
+			name = Debug;
+		};
+		DDAD6E031FBD78C400B7D4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LEIWaterfallLayoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LEIWaterfallLayout.com.LEIWaterfallLayoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LEIWaterfallLayoutDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAD6DCE1FBD78C400B7D4CC /* Build configuration list for PBXProject "LEIWaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD6DF91FBD78C400B7D4CC /* Debug */,
+				DDAD6DFA1FBD78C400B7D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD6DFB1FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD6DFC1FBD78C400B7D4CC /* Debug */,
+				DDAD6DFD1FBD78C400B7D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD6DFE1FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD6DFF1FBD78C400B7D4CC /* Debug */,
+				DDAD6E001FBD78C400B7D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD6E011FBD78C400B7D4CC /* Build configuration list for PBXNativeTarget "LEIWaterfallLayoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD6E021FBD78C400B7D4CC /* Debug */,
+				DDAD6E031FBD78C400B7D4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAD6DCB1FBD78C400B7D4CC /* Project object */;
+}

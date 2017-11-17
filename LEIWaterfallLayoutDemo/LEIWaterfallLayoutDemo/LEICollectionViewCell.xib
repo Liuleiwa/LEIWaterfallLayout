@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LEICollectionViewCell" customModule="LEIWaterfallLayoutDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="208" height="298"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="208" height="298"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gdS-g5-9hv">
+                        <rect key="frame" x="0.0" y="0.0" width="208" height="208"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="秋季圆领加绒加厚毛衣男装韩版男士修身长袖针织" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGU-PZ-U3S">
+                        <rect key="frame" x="5" y="213" width="198" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="run-BP-g2x">
+                        <rect key="frame" x="10" y="272" width="39" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.81568627449999997" green="0.0" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000人购买" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9V6-1B-Lkl">
+                        <rect key="frame" x="143" y="281" width="55" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.72941176470000002" green="0.72941176470000002" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MGU-PZ-U3S" firstAttribute="top" secondItem="gdS-g5-9hv" secondAttribute="bottom" constant="5" id="5Ho-Th-rQE"/>
+                <constraint firstItem="gdS-g5-9hv" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="width" id="5lW-ji-Yf9"/>
+                <constraint firstItem="gdS-g5-9hv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8BJ-ct-MPF"/>
+                <constraint firstItem="run-BP-g2x" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="D38-WG-oLC"/>
+                <constraint firstItem="9V6-1B-Lkl" firstAttribute="bottom" secondItem="run-BP-g2x" secondAttribute="bottom" id="Diy-Rl-XD4"/>
+                <constraint firstAttribute="bottom" secondItem="run-BP-g2x" secondAttribute="bottom" constant="5" id="GOj-sK-HPv"/>
+                <constraint firstAttribute="trailing" secondItem="MGU-PZ-U3S" secondAttribute="trailing" constant="5" id="JaX-2m-lST"/>
+                <constraint firstItem="gdS-g5-9hv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fDb-QR-DGC"/>
+                <constraint firstItem="MGU-PZ-U3S" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="i3A-rR-cKp"/>
+                <constraint firstAttribute="trailing" secondItem="9V6-1B-Lkl" secondAttribute="trailing" constant="10" id="qzF-HJ-rv7"/>
+                <constraint firstAttribute="trailing" secondItem="gdS-g5-9hv" secondAttribute="trailing" id="z1T-Vi-Ue7"/>
+            </constraints>
+            <size key="customSize" width="208" height="298"/>
+            <connections>
+                <outlet property="imageView" destination="gdS-g5-9hv" id="9aL-8e-S30"/>
+            </connections>
+            <point key="canvasLocation" x="-558" y="-92"/>
+        </collectionViewCell>
+    </objects>
+</document>

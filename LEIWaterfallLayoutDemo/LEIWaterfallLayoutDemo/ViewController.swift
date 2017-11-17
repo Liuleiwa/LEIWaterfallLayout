@@ -12,10 +12,12 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
     var collectionView : UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        /**/
+        /*colNum:列数  rowSpacing：行距  colSpacing列距  */
         let waterLayout : LEIWaterfallLayout = LEIWaterfallLayout.init(colNum: 2, rowSpacing: 10, colSpacing: 10, sectionInset: UIEdgeInsetsMake(10, 10, 10, 10))
+        /*设置代理*/
         waterLayout.delgate = self
         self.collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: waterLayout);
+        
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         self.collectionView.register(UINib.init(nibName: "LEICollectionViewCell", bundle: Bundle.main), forCellWithReuseIdentifier: "cell")
@@ -30,9 +32,8 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         super.didReceiveMemoryWarning()
     }
     
-    /*返回每个cell的高度*/
+    /*实现代理方法返回每个cell的高度*/
     func collectionView(heightOfCell layout: LEIWaterfallLayout, width: CGFloat, At indexPath: IndexPath) -> CGFloat {
-//        let cellWidth : CGFloat =( UIScreen.main.bounds.size.height - )/ 2.0
         
         return indexPath.row == 3 ? 210 : 280
 
